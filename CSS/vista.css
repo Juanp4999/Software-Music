@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url(../IMG/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen */
+}
+
+.container-form {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.4
+  ); /* Fondo semitransparente para contraste */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.styled-form {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: "Playwrite GB S", cursive;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-column {
+  width: 48%;
+}
+
+.styled-form label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  display: block;
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="email"],
+.styled-form input[type="password"],
+.styled-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.styled-form input[type="text"]:focus,
+.styled-form input[type="email"]:focus,
+.styled-form input[type="password"]:focus,
+.styled-form input[type="number"]:focus {
+  border-color: #000000;
+}
+
+.styled-form input[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffd279;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.styled-form input[type="submit"]:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+
